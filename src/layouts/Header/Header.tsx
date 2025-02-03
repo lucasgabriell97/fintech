@@ -1,8 +1,14 @@
 import React from "react";
-import { useData } from "../../context/DataContext";
+import { DateRange } from "../DateRange/DateRange";
+import { Months } from "../../components/Months/Months";
 
 export const Header: React.FC = () => {
-  const { data } = useData();
-  console.log(data)
-  return <div>Header</div>;
+  return (
+    <div className="mb">
+      <div className="mb">
+        <DateRange />
+      </div>
+      <Months />
+    </div>
+  );
 };
