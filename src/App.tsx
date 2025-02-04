@@ -1,12 +1,14 @@
 import React from "react";
 import "./css/style.css";
 
+import { DataContextProvider } from "./context/DataContext";
+
 import { Sidenav } from "./layouts/Sidenav/Sidenav";
 import { Header } from "./layouts/Header/Header";
 
 import { Summary } from "./pages/Summary/Summary";
+import { Sales } from "./pages/Sales/Sales";
 
-import { DataContextProvider } from "./context/DataContext";
 
 export const App: React.FC = () => {
   return (
@@ -16,6 +18,7 @@ export const App: React.FC = () => {
         <main>
           <Header />
           <Summary />
+          <Sales />
         </main>
       </div>
     </DataContextProvider>
