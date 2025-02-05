@@ -14,8 +14,8 @@ Projeto final do curso de React com TypeScript, colocando em prática todo conhe
 
 ## 🧑🏽‍💻 Funcionalidades | Interações
 
-☑️ Visualizar um layout adequado ao seu dispositivo. 
-☑️ Alternar entre páginas por meio do React Router.
+☑️ Visualizar um layout adequado ao seu dispositivo.<br> 
+☑️ Alternar entre páginas por meio do React Router.<br>
 ☑️ Exibição dos dados de vendas pela data ou os ultimos quatro meses.
 
 ## 🛠️ Tecnologias utilizadas
