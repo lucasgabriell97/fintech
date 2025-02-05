@@ -1,6 +1,8 @@
 import React from "react";
 import { useData } from "../../context/DataContext";
 
+import { SalesChart } from "../../components/SalesChart/SalesChart";
+
 export const Summary: React.FC = () => {
   const { data } = useData();
 
@@ -36,7 +38,9 @@ export const Summary: React.FC = () => {
           </span>
         </div>
       </div>
-      <div className="box mb">Gráficos</div>
+      <div className="box mb">
+        <SalesChart data={data} />
+      </div>
     </section>
   );
 };
