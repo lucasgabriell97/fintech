@@ -6,7 +6,7 @@
   <img src="./src/assets/design/design-preview.png" alt="Imagem do projeto Fintech" />
 </div>
 
-<h4 align="center"><a href="">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://fintech-six-indol.vercel.app/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Sobre o projeto
 
